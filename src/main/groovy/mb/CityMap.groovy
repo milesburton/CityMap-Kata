@@ -7,5 +7,5 @@ import groovy.transform.ToString
 @ToString
 class CityMap {
 
-    ArrayList<BiDirectionalEdge> routes
+    ArrayList<Edge> routes
 }
