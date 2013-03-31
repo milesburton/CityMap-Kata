@@ -19,12 +19,9 @@ dependencies {
     def springVersion = '3.2.1.RELEASE'
     groovy 'org.codehaus.groovy:groovy-all:2.1.1'
 
-    compile 'com.mb:console-argument-processor:1.0.130312.1436',
-            // Spring
-            "org.springframework:spring-core:$springVersion",
+    compile "org.springframework:spring-core:$springVersion",
             "org.springframework:spring-aop:$springVersion",
-            "org.springframework:spring-context:$springVersion",
-            'commons-lang:commons-lang:2.6'
+            "org.springframework:spring-context:$springVersion"
 
 
     testCompile 'org.spockframework:spock-core:0.7-groovy-2.0',
